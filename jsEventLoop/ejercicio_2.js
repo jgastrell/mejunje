@@ -6,21 +6,31 @@
 //   }, 1000 * i)
 // }
 
-const function1 = () => {
-  const a = 2;
-  console.log(a)
-};
 
-const function2 = () => {
-  function1();
-  const b =3;
-  console.log(b)
+// solucion #1
+// IIFE immediately invoked function expression
+// for (var i = 0; i < 3; i++) {
+//   (function printTime(index) {
+//     setTimeout(function() {
+//       console.log(index)
+//     }, 1000 * index)
+//   })(i)
+// }
+
+
+// solucion #2
+//using let keyword
+
+// for (var i = 0; i < 3; i++) {
+//   let k = i
+//   setTimeout(function() {
+//     console.log(k)
+//   }, 1000 * k)
+// }
+
+// solucion #3
+for (let i = 0; i < 3; i++) {
+  setTimeout(function() {
+    console.log(i)
+  }, 1000 * i)
 }
-
-const function3 = () => {
-  function2();
-}
-
-function3();
-
-
