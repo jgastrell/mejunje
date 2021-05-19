@@ -1,5 +1,14 @@
 function counter() {
-    ...
+  let counter = 0;
+
+    return {
+        add(increment) {
+            counter += increment;
+        },
+        retrieve() {
+            return counter
+        }
+    }
 }
 
 const myCounter = counter();
