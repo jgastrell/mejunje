@@ -8,10 +8,10 @@ unique integer identifier.
 For example, in this diagram, 3 is a child of
 1 and 2, and 5 is a child of 4:
 1    2   4
- \  /   / \
-   3   5   8
+\  /   / \
+  3   5   8
     \ / \   \
-     6   7   10
+    6   7   10
 Write a function that, for two given
 individuals in our dataset, returns true if
 and only if they share at least one ancestor.

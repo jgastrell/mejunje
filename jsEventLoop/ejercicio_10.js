@@ -3,10 +3,10 @@
 
 var obj = {
   m: function () {
-      console.log(this.v)
-      return 1;
+      console.log(this.v) 
+      return 1; // Devuelve 1 
   },
-  v: 1
+  v: 1 // Esta fuera del scope
 }
 var j = obj.m;
 j();
