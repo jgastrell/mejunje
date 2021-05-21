@@ -16,3 +16,9 @@ function recursion(n) {
 console.log(recursion(2));
 console.log(recursion(3));
 console.log(recursion(4));
+const factorial = (numero) => {
+  if (numero === 1) return 1;
+  return numero * factorial(numero - 1);
+}
+
+console.log(factorial(3))

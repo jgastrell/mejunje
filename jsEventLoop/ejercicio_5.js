@@ -32,3 +32,26 @@ let producto1 = {
 let data1 = JSON.stringify(producto1, null, 2);
 fs2.writeFileSync('producto1.json', data1);
 
+const info = require('./persona.json');
+const fs = require('fs');
+
+// async
+// const func = async () => {
+//   let data = JSON.stringify(info);
+//   try {
+//     await fs.writeFile('persona.txt',data, (e) =>{ console.error(e)});
+//     console.log('termino');
+//   } catch (e) {
+//     console.error(e);
+//   }
+// }
+// func();
+
+
+// sync
+const func = async () => {
+  let data = JSON.stringify(info);
+  fs.writeFileSync('persona.txt',data);
+  console.log('termino');
+}
+func();
