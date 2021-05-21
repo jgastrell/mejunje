@@ -10,4 +10,7 @@
   function getFruitColor() {
       console.log(fruits.color)
   } //como hago para obtener el color sin pasar parametros
+
+  getFruitColor();
+  fruits.getColor();
 })()

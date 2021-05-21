@@ -3,3 +3,10 @@
 //por ejemplo factorial(3) -> devuelve 6
 //por ejemplo factorial(4) -> devuelve 24
 // pista: necesitas usar recursion
+
+const factorial = (numero) => {
+  if (numero === 1) return 1;
+  return numero * factorial(numero - 1);
+}
+
+console.log(factorial(3))
