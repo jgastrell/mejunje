@@ -1,4 +1,5 @@
 // indicar en cada caso que imprime el console.log, anotarlo, y luego verificar
+// IMPORTANTE, justificar la respuesta
 
 var array = ['juan','martin','sol','rosa'];
 var array2 = ['juan','martin','sol','rosa'];
