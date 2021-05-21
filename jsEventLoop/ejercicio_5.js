@@ -19,7 +19,7 @@ fs1.readFile('productos.json', (error, data) => {
 
 console.log('Continua');
 
-const fs2 = require('fs');
+// const fs2 = require('fs'); --> no es necesario
 
 let producto1 = { 
     producto : "Zapatillas",
@@ -30,7 +30,7 @@ let producto1 = {
 };
 
 let data1 = JSON.stringify(producto1, null, 2);
-fs2.writeFileSync('producto1.json', data1);
+fs1.writeFileSync('producto1.json', data1); // cambie fs2 por fs1
 
 const info = require('./persona.json');
 const fs = require('fs');
