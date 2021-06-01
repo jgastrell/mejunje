@@ -22,3 +22,33 @@ hasCommonAncestor(parentChildPairs, 5, 8) => true
 hasCommonAncestor(parentChildPairs, 6, 8) => true
 hasCommonAncestor(parentChildPairs, 1, 3) => false
 */
+
+const parentChildPairs = [[1,3], [2,3], [3,6], [5,6], [5,7], [4,5], [4,8], [8,10]];
+
+console.log(parentChildPairs);
+
+
+
+
+/* function hasCommonAncestor(A) {
+	var cMap = {};
+	var size = A.length;
+	
+	for(let i = 0; i < size; i++) {
+		let [p,c] = A[i];
+		if(!cMap[c]) { cMap[c] = 1; } else { cMap[c] += 1; }
+	}
+	
+	for(let i = 0; i < size; i++) {
+		let [p] = A[i];
+		if(!cMap[p]) { cMap[p] = 0; };
+	}
+	let noparent = [], oneparent = [];
+
+	for(k in cMap) {
+		let z = (cMap[k] === 0), o = (cMap[k] === 1);
+		if(z) noparent.push(+k);
+		if(o) oneparent.push(+k);
+	}
+	return {noparent, oneparent};
+} */
