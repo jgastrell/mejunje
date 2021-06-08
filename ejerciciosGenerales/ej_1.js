@@ -19,3 +19,19 @@ const amigosObject = {
     club: 'boca',
   },
 }
+
+const res = amigosArray.reduce((acc,currentValue,index,arrayEntero) => {
+  const nombre = currentValue[0];
+  const sexo = currentValue[1];
+  const fecha_nacimiento = currentValue[2];
+  const club = currentValue[3];
+  acc[nombre] = {
+    sexo,
+    fecha_nacimiento,
+    club,
+  };
+  return acc;
+}, {});
+
+
+console.log(res)
