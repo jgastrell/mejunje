@@ -1,0 +1,50 @@
+{
+  "id": "cus_JSt698yUOcOSQd",
+  "object": "customer",
+  "businessId": "6f52fd64-b775-473e-83eb-35a4adfd286d",
+  "name": "Cantina Feliz",
+  "sources": {
+    "object": "list",
+    "data": [
+      {
+        "id": "card_1IpxNcAn4simWzOp4b6lbSfB",
+        "object": "card",
+        "address_city": "Fort Washington",
+        "last4": "1001",
+        "name": "Brian Sirhal"
+      }
+    ]
+  },
+  "subscriptions": {
+    "object": "list",
+    "data": [
+      {
+        "id": "sub_JStA3ivzRnDQw5",
+        "object": "subscription",
+        "items": {
+          "object": "list",
+          "data": [
+            {
+              "id": "si_JStAXuMHq9s5Nc",
+              "object": "subscription_item",
+              "plan": {
+                "id": "price_1GxbI0An4simWzOpX2TtrQge",
+                "object": "plan",
+                "amount": 14900
+              },
+              "price": {
+                "id": "price_1GxbI0An4simWzOpX2TtrQge",
+                "object": "price",
+                "unit_amount": 14900
+              }
+            }
+          ]
+        },
+        "quantity": 1,
+        "start": 1620746421,
+        "start_date": 1620746421,
+        "status": "active"
+      }
+    ]
+  }
+}
