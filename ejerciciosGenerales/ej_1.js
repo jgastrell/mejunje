@@ -20,11 +20,15 @@ const amigosObject = {
   },
 }
 
-const res = amigosArray.reduce((acc,currentValue,index,arrayEntero) => {
-  const nombre = currentValue[0];
-  const sexo = currentValue[1];
-  const fecha_nacimiento = currentValue[2];
-  const club = currentValue[3];
+// ['braian', 'm', '20/06/1985', 'boca'] => 
+// 'braian': {
+//   sexo: 'm',
+//   fecha_nacimiento: '20/06/1985',
+//   club: 'boca',
+// },
+
+const resultado = amigosArray.reduce((acc, currentValue) => {
+  const [nombre, sexo, fecha_nacimiento, club] = currentValue;
   acc[nombre] = {
     sexo,
     fecha_nacimiento,
@@ -34,4 +38,4 @@ const res = amigosArray.reduce((acc,currentValue,index,arrayEntero) => {
 }, {});
 
 
-console.log(res)
+console.log(resultado)
