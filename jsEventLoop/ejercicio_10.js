@@ -3,8 +3,8 @@
 
 var obj = {
   m: function () {
-      console.log(this.v)
-      return 1;
+      console.log(this.v) 
+      return 1; 
   },
   v: 1
 }

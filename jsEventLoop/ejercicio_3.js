@@ -1,6 +1,16 @@
 // crear la funcion que cumpla con los requisitos
-const func = ...
+// const func = ...
+
+// const addSix = func(6);
+// console.log(addSix(10)); // devuelve 16
+// console.log(addSix(21)); // devuelve 27
+
+function func(number) {
+    return function(n) {
+        return number + n;
+    }
+}
 
 const addSix = func(6);
-console.log(addSix(10)); // devuelve 16
-console.log(addSix(21)); // devuelve 27
+console.log(addSix(10));
+console.log(addSix(21));

@@ -1,0 +1,44 @@
+[
+    {
+        "producto" : "Iphone",
+        "marca" : "Apple",
+        "precio" : 1400,
+        "disponible" : true,
+        "modelo" : 2018
+    },
+    {
+        "producto" : "Macbook",
+        "marca" : "Apple",
+        "precio" : 3000,
+        "disponible" : true,
+        "modelo" : 2020
+    },
+    {
+        "producto" : "AppleWatch",
+        "marca" : "Apple",
+        "precio" : 700,
+        "disponible" : false,
+        "modelo" : 2019
+    },
+    {
+        "producto" : "Airpods",
+        "marca" : "Apple",
+        "precio" : 250,
+        "disponible" : true,
+        "modelo" : 2018
+    },
+    {
+        "producto" : "Airpods Max",
+        "marca" : "Apple",
+        "precio" : 1200,
+        "disponible" : false,
+        "modelo" : 2020
+    },
+    {
+        "producto" : "iMac",
+        "marca" : "Apple",
+        "precio" : 3000,
+        "disponible" : false,
+        "modelo" : 2017
+    }
+]

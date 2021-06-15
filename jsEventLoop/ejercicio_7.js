@@ -1,13 +1,20 @@
 (function sa() {
-  var fruits = {
-      color: 'yellow',
+    var fruits = {
+        color: 'yellow',
 
-      getColor() {
-          console.log(this.color)
-      }
-  }
+        getColor() {
+        console.log(this.color)
+    }
+}
 
-  function getFruitColor() {
-      console.log(fruits.color)
+    function getFruitColor(color) {
+        console.log(fruits.color)
   } //como hago para obtener el color sin pasar parametros
+// })()
+
+getFruitColor();
+fruits.getColor();
+
 })()
+
+

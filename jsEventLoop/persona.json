@@ -1,0 +1,7 @@
+{
+  "id": 123,
+  "dni": 29867745,
+  "nombre": "jonathan",
+  "deportes": ["futbol", "natacion", "ping pong"],
+  "apodo": "donio"
+}
